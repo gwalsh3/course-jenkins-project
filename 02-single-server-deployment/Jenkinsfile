@@ -1,8 +1,8 @@
 pipeline {
     agent any
-
+//this is a comment
     environment {
-        SERVER_IP = credentials('prodserver-ip')
+        SERVER_IP = credentials('prod-server-ip')
     }
     stages {
         stage('Setup') {
